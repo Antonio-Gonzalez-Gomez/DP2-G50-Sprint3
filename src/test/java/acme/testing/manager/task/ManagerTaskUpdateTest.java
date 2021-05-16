@@ -6,15 +6,17 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 
 import acme.testing.AcmeOneTest;
 
-public class ManagerTaskCreateTest extends AcmeOneTest {
+public class ManagerTaskUpdateTest extends AcmeOneTest {
 	
 	@ParameterizedTest
-	@CsvFileSource(resources="/manager/task/create-positive-task.csv", encoding = "utf-8", numLinesToSkip=1)
+	@CsvFileSource(resources="/manager/task/update-positive-task.csv", encoding = "utf-8", numLinesToSkip=1)
 	@Order(10)
-	public void createTaskPositive(final int recordIndex, final String title, final String description, final String link, final String start_date, final String ending_date, final String workload, final String finished, final String privacy, final String execution_period, final String manager_id) {
-		super.signIn("manager2", "manager2");
+	public void updateTaskPositive(final int recordIndex, final String title, final String description, final String link, final String start_date, final String ending_date, final String workload, final String finished, final String privacy, final String execution_period, final String manager_id) {
+		super.signIn("manager1", "manager1");
 		
-		super.clickOnMenu("Manager", "New task");
+		super.clickOnMenu("Manager", "My tasks");
+		
+		super.clickOnListingRecord(recordIndex);
 		
 		super.fillInputBoxIn("title", title);
 		super.fillInputBoxIn("description", description);
@@ -26,7 +28,7 @@ public class ManagerTaskCreateTest extends AcmeOneTest {
 		if(finished.equals("false")) super.fillInputBoxIn("finished", "false");
 		if(privacy.equals("true")) super.fillInputBoxIn("privacy", "true");
 		if(privacy.equals("false")) super.fillInputBoxIn("privacy", "false");
-		super.clickOnSubmitButton("Create");
+		super.clickOnSubmitButton("Update");
 		
 		super.clickOnMenu("Manager", "My tasks");
 		
@@ -49,12 +51,14 @@ public class ManagerTaskCreateTest extends AcmeOneTest {
 	}
 	
 	@ParameterizedTest
-	@CsvFileSource(resources="/manager/task/create-negative-task.csv", encoding = "utf-8", numLinesToSkip=1)
+	@CsvFileSource(resources="/manager/task/update-negative-task.csv", encoding = "utf-8", numLinesToSkip=1)
 	@Order(10)
-	public void createTaskNegative(final int recordIndex, final String title, final String description, final String link, final String start_date, final String ending_date, final String workload, final String finished, final String privacy, final String execution_period, final String manager_id) {
-		super.signIn("manager2", "manager2");
+	public void updateTaskNegative(final int recordIndex, final String title, final String description, final String link, final String start_date, final String ending_date, final String workload, final String finished, final String privacy, final String execution_period, final String manager_id) {
+		super.signIn("manager1", "manager1");
 		
-		super.clickOnMenu("Manager", "New task");
+		super.clickOnMenu("Manager", "My tasks");
+		
+		super.clickOnListingRecord(recordIndex);
 		
 		super.fillInputBoxIn("title", title);
 		super.fillInputBoxIn("description", description);
@@ -66,12 +70,11 @@ public class ManagerTaskCreateTest extends AcmeOneTest {
 		if(finished.equals("false")) super.fillInputBoxIn("finished", "false");
 		if(privacy.equals("true")) super.fillInputBoxIn("privacy", "true");
 		if(privacy.equals("false")) super.fillInputBoxIn("privacy", "false");
-		super.clickOnSubmitButton("Create");
+		super.clickOnSubmitButton("Update");
 		
 		super.checkErrorsExist();
 		
 		super.signOut();
 	}
-	
 
 }
