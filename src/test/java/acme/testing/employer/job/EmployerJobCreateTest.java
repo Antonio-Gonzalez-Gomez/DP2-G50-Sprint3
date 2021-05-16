@@ -16,9 +16,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmeJobsTest;
+import acme.testing.AcmeOneTest;
 
-public class EmployerJobCreateTest extends AcmeJobsTest {
+public class EmployerJobCreateTest extends AcmeOneTest {
 
 	// Lifecycle management ---------------------------------------------------
 

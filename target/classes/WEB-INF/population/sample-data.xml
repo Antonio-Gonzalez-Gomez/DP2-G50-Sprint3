@@ -176,7 +176,7 @@
 		<property name="workload" value="6.0"/>
 		<property name="finished" value="true"/>
 		<property name="privacy" value="true"/>
-		<property name="executionPeriod" value="2700"/>
+		<property name="executionPeriod" value="50"/>
 		<property name="manager" ref="manager1Manager"/>
 	</bean>
 
@@ -190,7 +190,7 @@
 		<property name="workload" value="7.0"/>
 		<property name="finished" value="true"/>
 		<property name="privacy" value="false"/>
-		<property name="executionPeriod" value="2000"/>
+		<property name="executionPeriod" value="50"/>
 		<property name="manager" ref="manager2Manager"/>
 	</bean>
 	
@@ -204,7 +204,7 @@
 		<property name="workload" value="8.0"/>
 		<property name="finished" value="false"/>
 		<property name="privacy" value="true"/>
-		<property name="executionPeriod" value="3000"/>
+		<property name="executionPeriod" value="50"/>
 		<property name="manager" ref="manager1Manager"/>
 	</bean>
 	
@@ -218,7 +218,7 @@
 		<property name="workload" value="5.0"/>
 		<property name="finished" value="false"/>
 		<property name="privacy" value="true"/>
-		<property name="executionPeriod" value="3500"/>
+		<property name="executionPeriod" value="74"/>
 		<property name="manager" ref="manager2Manager"/>
 	</bean>
 	
@@ -232,7 +232,7 @@
 		<property name="workload" value="10.0"/>
 		<property name="finished" value="true"/>
 		<property name="privacy" value="false"/>
-		<property name="executionPeriod" value="2500"/>
+		<property name="executionPeriod" value="74"/>
 		<property name="manager" ref="manager2Manager"/>
 	</bean>
 	
@@ -246,7 +246,7 @@
 		<property name="workload" value="9.0"/>
 		<property name="finished" value="true"/>
 		<property name="privacy" value="false"/>
-		<property name="executionPeriod" value="3200"/>
+		<property name="executionPeriod" value="74"/>
 		<property name="manager" ref="manager2Manager"/>
 	</bean>
 	

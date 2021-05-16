@@ -72,8 +72,7 @@ public class ManagerTaskUpdateService implements AbstractUpdateService<Manager, 
 		}
 		
 		if (!errors.hasErrors("work_overload") && entity.getExecutionPeriod() != null && entity.getWorkload() != null) {
-			final Double workloadMin = entity.getWorkload()*60;
-			errors.state(request, workloadMin < entity.getExecutionPeriod(), "workload", "manager.task.form.error.work_overload");
+			errors.state(request, entity.getWorkload() < entity.getExecutionPeriod(), "workload", "manager.task.form.error.work_overload");
 		}
 		
 		
