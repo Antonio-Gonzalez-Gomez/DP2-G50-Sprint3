@@ -1,0 +1,3 @@
+recordIndex,title,description,link,start_date,ending_date,workload,finished,privacy,execution_period,manager_id
+4,creacion1,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.00,false,true,24,21
+5,creacion2,Creacion de nueva task 2,,2022/10/20 12:00,2022/10/21 12:00,10.00,false,false,24,21
