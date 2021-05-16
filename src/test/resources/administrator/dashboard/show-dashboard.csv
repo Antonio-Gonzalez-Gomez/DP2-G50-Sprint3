@@ -1,7 +1,2 @@
-recordIndex,reference,title,description,link,start_date,ending_date,workload,finished,privacy,execution_period
-0,MANAGER1-TASK1,Crear repositorio de la clase Task,Crear repositorio de la clase Task para posterior implementación en Service,https://github.com/Antonio-Gonzalez-Gomez/DP2-G50-Sprint2/issues/2,2021/04/03 10:00,2021/04/05 12:00,6.0,true,true,50
-1,MANAGER2-TASK2,Crear lista de tasks para administrator,Crear repositorio de la clase Task para posterior implementación en Service,https://github.com/Antonio-Gonzalez-Gomez/DP2-G50-Sprint2/issues/2,2021/04/03 10:00,2021/04/05 12:00,7.0,true,false,50
-2,MANAGER1-TASK3,Crear lista de tasks para anonymous,Crear lista de las tasks para usuarios con anonymous,https://github.com/Antonio-Gonzalez-Gomez/DP2-G50-Sprint2/issues/8,2021/04/03 10:00,2021/04/05 12:00,8.0,false,true,50,
-3,MANAGER2-TASK4,Crear servicio de la clase Shout,Crear servicio de creación de la clase Shout para posterior implementación en Controller,https://github.com/Antonio-Gonzalez-Gomez/DP2-G50-Sprint2/issues/1,2021/04/03 10:00,2021/04/06 12:00,5.0,false,true,74,
-4,MANAGER2-TASK5,Implementar filtro de spam,Implementar filtro de spam que valide la información de Tasks y Shouts,https://github.com/Antonio-Gonzalez-Gomez/DP2-G50-Sprint2/issues/11,2021/04/03 10:00,2021/04/06 12:00,10.0,true,false,74,
-5,MANAGER2-TASK6,Crear dashboard para administradores,Dashboard con datos estadísticos con respecto a las Tasks,https://github.com/Antonio-Gonzalez-Gomez/DP2-G50-Sprint2/issues/10,2021/04/03 10:00,2021/04/06 12:00,9.0,true,false,74,
+recordIndex
+0
