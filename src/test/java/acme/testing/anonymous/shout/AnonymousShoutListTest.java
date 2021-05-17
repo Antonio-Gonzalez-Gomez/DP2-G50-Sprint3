@@ -18,10 +18,7 @@ public class AnonymousShoutListTest extends AcmeOneTest{
 		super.checkColumnHasValue(recordIndex, 1, author);
 		super.checkColumnHasValue(recordIndex, 2, text);
 		
-		super.checkInputBoxHasValue("Moment", moment);
-		super.checkInputBoxHasValue("Author", author);		
-		super.checkInputBoxHasValue("Statement", text);
-		
-		super.signOut();
 	}
 }
+
+
