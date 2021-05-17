@@ -260,7 +260,7 @@
 		<property name="workload" value="9.0"/>
 		<property name="finished" value="false"/>
 		<property name="privacy" value="false"/>
-		<property name="executionPeriod" value="3200"/>
+		<property name="executionPeriod" value="74"/>
 		<property name="manager" ref="manager2Manager"/>
 	</bean>
 	
