@@ -1,0 +1,10 @@
+recordIndex,title,description,link,start_date,ending_date,workload,finished,privacy,execution_period,manager_id
+0,,Modificacion de task 1,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.00,false,true,24,18
+0,update1,,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.00,false,true,24,18
+0,update1,Modificacion de task 1,http://www.acme.com,,2022/10/21 12:00,10.00,finished,true,24,18
+0,update1,Modificacion de task 1,http://www.acme.com,2022/10/20 12:00,,10.00,false,true,24,18
+0,update1,Modificacion de task 1,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,,false,true,24,18
+0,update1,Modificacion de task 1,http://www.acme.com,2010/10/20 12:00,2010/10/21 12:00,10.00,false,true,24,18
+0,update1,Modificacion de task 1,http://www.acme.com,2022/10/21 12:00,2022/10/20 12:00,10.00,false,true,-24,18
+0,update1,Modificacion de task 1,http://www.acme.com,2022/10/20 12:00,2022/10/25 12:00,100.00,false,true,120,18
+0,update1,Modificacion de task 1,http://www.acme.com,2022/10/20 12:00,2022/10/20 15:00,50.00,true,false,3,18
