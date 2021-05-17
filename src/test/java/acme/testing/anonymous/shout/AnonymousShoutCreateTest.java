@@ -23,4 +23,17 @@ public class AnonymousShoutCreateTest extends AcmeOneTest{
 		super.checkColumnHasValue(recordIndex, 1, author);
 		super.checkColumnHasValue(recordIndex, 2, text);
 	}
+	
+	@ParameterizedTest
+	@CsvFileSource(resources="/anonymous/shout/create-negative-shout.csv", encoding = "utf-8", numLinesToSkip=1)
+	@Order(10)
+	public void createNegativeShout(final int recordIndex, final String moment, final String author, final String text) {
+
+		super.clickOnMenu("Anonymous", "Create Shouts");
+		
+		super.fillInputBoxIn("author", author);
+		super.fillInputBoxIn("text", text);
+		super.clickOnSubmitButton("Create");
+		super.checkErrorsExist();
+	}
 }
