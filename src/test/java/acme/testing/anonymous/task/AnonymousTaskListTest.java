@@ -15,8 +15,8 @@ public class AnonymousTaskListTest extends AcmeOneTest {
 		super.clickOnMenu("Anonymous", "List Tasks");
 		
 		super.checkColumnHasValue(recordIndex, 0, title);
-		super.checkColumnHasValue(recordIndex, 1, description);
-		super.checkColumnHasValue(recordIndex, 2, finished);
+		super.checkColumnHasValue(recordIndex, 1, startDate);
+		super.checkColumnHasValue(recordIndex, 2, endingDate);
 		
 		super.clickOnListingRecord(recordIndex);
 		

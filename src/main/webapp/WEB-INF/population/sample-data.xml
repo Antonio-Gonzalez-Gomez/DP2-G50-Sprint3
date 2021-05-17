@@ -254,7 +254,7 @@
 		
 		<property name="title" value="Crear tests"/>
 		<property name="description" value="Creación de tests para las funcionalidades implementadas"/>
-		<property name="link" value="https://github.com/Antonio-Gonzalez-Gomez/DP2-G50-Sprint2/issues/10"/>
+		<property name="link" value="https://github.com/vicsorvaz/DP2-G50-Sprint3/issues/6"/>
 		<property name="startDate" value="2021/04/03 10:00"/>
 		<property name="endingDate" value="2021/04/06 12:00"/>
 		<property name="workload" value="9.0"/>
@@ -263,6 +263,7 @@
 		<property name="executionPeriod" value="3200"/>
 		<property name="manager" ref="manager2Manager"/>
 	</bean>
+	
 	<!-- Filter -->
 	<bean id="filter1" class="acme.entities.filters.Filter">
 		<property name="threshold" value="10.0"/>
