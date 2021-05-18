@@ -1,0 +1,12 @@
+recordIndex,title,description,link,start_date,ending_date,workload,finished,privacy,execution_period,manager_id
+4,,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.00,false,true,24,21
+5,creacion1,,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.00,false,true,24,21
+6,creacion1,Creacion de nueva task 1,http://www.acme.com,,2022/10/21 12:00,10.00,finished,true,24,21
+7,creacion1,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,,10.00,false,true,24,21
+8,creacion1,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,,false,true,24,21
+9,creacion1,Creacion de nueva task 1,http://www.acme.com,2010/10/20 12:00,2010/10/21 12:00,10.00,false,true,24,21
+10,creacion1,Creacion de nueva task 1,http://www.acme.com,2022/10/21 12:00,2022/10/20 12:00,10.00,false,true,-24,21
+11,creacion1,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,2022/10/25 12:00,100.00,false,true,120,21
+12,creacion1,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,2022/10/20 15:00,50.00,true,false,3,21
+13,sexo sexo,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.00,false,true,24,21
+14,creacion1,viagra cialis,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.00,false,true,24,21

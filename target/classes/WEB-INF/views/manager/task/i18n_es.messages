@@ -1,0 +1,46 @@
+# i18n_es.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+manager.task.list.title = Tus tareas
+manager.task.list.label.title = Título
+manager.task.list.label.description = Descripción
+manager.task.list.label.link = Link
+manager.task.list.label.startDate = Inicio
+manager.task.list.label.endingDate = Final
+manager.task.list.label.workload = Carga de trabajo
+manager.task.list.label.finished = ¿Está terminada?
+manager.task.list.label.privacy = ¿Es privada?
+
+manager.task.form.title.show = Tarea
+manager.task.form.title.create = Crear tarea 
+manager.task.form.title.update = Actualizar tarea
+manager.task.form.title.delete = Borrar tarea
+
+manager.task.form.label.title = Título: 
+manager.task.form.label.description = Descripción:
+manager.task.form.label.link = Link:
+manager.task.form.label.startDate = Inicio:
+manager.task.form.label.endingDate = Final:
+manager.task.form.label.workload = Carga de trabajo:
+manager.task.form.label.finished = ¿Está terminada?
+manager.task.form.label.privacy = ¿Es privada?
+		
+manager.task.form.button.update = Actualizar
+manager.task.form.button.delete = Borrar
+manager.task.form.button.create = Crear
+manager.task.form.button.return = Volver
+
+manager.task.form.error.past_task = La fecha de inicio debe ser en el futuro o la tarea debe estar terminada
+manager.task.form.error.incorrect_finish = La fecha de fin debe ser posterior a la de inicio
+manager.task.form.error.work_overload = La carga de trabajo es mayor que el tiempo entre las dos fechas
+manager.task.form.error.execution_period_null = Se ha producido un error al asignar el tiempo de ejecución
+manager.task.form.error.title_spam = Contiene demasiadas palabras de spam
+manager.task.form.error.description_spam = Contiene demasiadas palabras de spam
+manager.task.form.error.big_workload = La carga de trabajo no puede ser 100.0 o mayor
