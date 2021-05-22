@@ -51,13 +51,5 @@ public class AnonymousTaskListService implements AbstractListService<Anonymous, 
         }
         
         
-        public boolean isntfinished(final Task task) {
-            if(task.getFinished()) {
-                return false;
-            }else {
-                return true;
-            }
-        }
-        
     
 }
