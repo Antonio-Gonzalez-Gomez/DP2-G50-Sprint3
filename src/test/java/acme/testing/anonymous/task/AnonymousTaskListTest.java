@@ -26,10 +26,7 @@ public class AnonymousTaskListTest extends AcmeOneTest {
 		super.checkInputBoxHasValue("startDate", startDate);
 		super.checkInputBoxHasValue("endingDate", endingDate);
 		super.checkInputBoxHasValue("workload", workload);
-		super.checkInputBoxHasValue("finished", finished);
-		super.checkInputBoxHasValue("privacy", privacy);
 		
-		super.signOut();
 	}
 
 	
