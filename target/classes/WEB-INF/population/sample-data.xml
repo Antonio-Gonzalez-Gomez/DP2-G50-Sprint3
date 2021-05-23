@@ -270,52 +270,52 @@
 	</bean>
 	
 	<bean id="word1" class="acme.entities.filters.Word">
-		<property name="word" value="sexo"/>
+		<property name="spamword" value="sexo"/>
 		<property name="filter" ref="filter1"/>
 	</bean>
 	
 	<bean id="word2" class="acme.entities.filters.Word">
-		<property name="word" value="has ganado"/>
+		<property name="spamword" value="has ganado"/>
 		<property name="filter" ref="filter1"/>
 	</bean>
 	
 	<bean id="word3" class="acme.entities.filters.Word">
-		<property name="word" value="millón de dólares"/>
+		<property name="spamword" value="millón de dólares"/>
 		<property name="filter" ref="filter1"/>
 	</bean>
 	
 	<bean id="word4" class="acme.entities.filters.Word">
-		<property name="word" value="sex"/>
+		<property name="spamword" value="sex"/>
 		<property name="filter" ref="filter1"/>
 	</bean>
 	
 	<bean id="word5" class="acme.entities.filters.Word">
-		<property name="word" value="hard core"/>
+		<property name="spamword" value="hard core"/>
 		<property name="filter" ref="filter1"/>
 	</bean>
 	
 	<bean id="word6" class="acme.entities.filters.Word">
-		<property name="word" value="viagra"/>
+		<property name="spamword" value="viagra"/>
 		<property name="filter" ref="filter1"/>
 	</bean>
 	
 	<bean id="word7" class="acme.entities.filters.Word">
-		<property name="word" value="cialis"/>
+		<property name="spamword" value="cialis"/>
 		<property name="filter" ref="filter1"/>
 	</bean>
 	
 	<bean id="word8" class="acme.entities.filters.Word">
-		<property name="word" value="nigeria"/>
+		<property name="spamword" value="nigeria"/>
 		<property name="filter" ref="filter1"/>
 	</bean>
 	
 	<bean id="word9" class="acme.entities.filters.Word">
-		<property name="word" value="you've won"/>
+		<property name="spamword" value="you've won"/>
 		<property name="filter" ref="filter1"/>
 	</bean>
 	
 	<bean id="word10" class="acme.entities.filters.Word">
-		<property name="word" value="million dollar"/>
+		<property name="spamword" value="million dollar"/>
 		<property name="filter" ref="filter1"/>
 	</bean>
 </beans>

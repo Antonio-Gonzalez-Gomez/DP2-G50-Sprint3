@@ -52,7 +52,8 @@ public class AuthenticatedTaskListService implements AbstractListService<Authent
         
         
         public boolean isntfinished(final Task task) {
-            if(task.getFinished()) {
+        	final boolean finish = task.getFinished();
+            if(finish) {
                 return false;
             }else {
                 return true;

@@ -47,8 +47,10 @@ public class ManagerTaskCreateService implements AbstractCreateService<Manager, 
 		assert errors != null;
 		if(entity.getStartDate() != null && entity.getEndingDate() != null) entity.setExecutionPeriod();
 		
+		final boolean finish = entity.getFinished();
+		
 		if (!errors.hasErrors("past_task") && entity.getStartDate() != null) {
-			errors.state(request, (entity.getStartDate().after(Date.from(Instant.now())) || entity.getFinished()==true), "startDate", "manager.task.form.error.past_task");
+			errors.state(request, (entity.getStartDate().after(Date.from(Instant.now())) || finish), "startDate", "manager.task.form.error.past_task");
 		}
 		
 		if (!errors.hasErrors("incorrect_finish") && entity.getStartDate() != null && entity.getEndingDate() != null) {

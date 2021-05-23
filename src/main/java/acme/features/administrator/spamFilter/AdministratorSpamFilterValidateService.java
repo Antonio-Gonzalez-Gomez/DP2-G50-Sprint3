@@ -36,7 +36,7 @@ public class AdministratorSpamFilterValidateService {
 		
 		final Filter filter = this.repository.findFilters().get(0);
 		final List<String[]> spamWords = this.repository.findSpamWords().stream()
-			.map(x -> x.getWord().toLowerCase().trim().split("\\s+"))
+			.map(x -> x.getSpamword().toLowerCase().trim().split("\\s+"))
 			.collect(Collectors.toList());
 		
 		while (i < spamWords.size()) {

@@ -360,11 +360,11 @@ public abstract class AbstractTest {
 	}
 
 	protected void clickAndWait(final WebElement element) {
-		assert element != null;
+		assert element != null; 
 
 		this.navigate(() -> {
 			this.clickAndGo(element);
-		});
+		} );
 		this.longSleep();
 	}
 

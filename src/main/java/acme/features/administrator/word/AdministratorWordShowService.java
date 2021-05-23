@@ -33,7 +33,7 @@ public class AdministratorWordShowService implements AbstractShowService<Adminis
 			assert entity != null;
 			assert model != null;
 
-			request.unbind(entity, model, "word", "filter");
+			request.unbind(entity, model, "spamword", "filter");
 		}
 
 		@Override

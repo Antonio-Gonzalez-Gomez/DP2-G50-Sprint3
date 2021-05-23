@@ -17,7 +17,7 @@ public class Word extends DomainEntity{
 	protected static final long	serialVersionUID	= 1L;
 	
 	@NotBlank
-	protected String word;
+	protected String spamword;
 	
 	@NotNull
  	@ManyToOne(optional = false)
