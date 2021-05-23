@@ -6,7 +6,7 @@
    "deploy": {
         "container": "TOMCAT8",
         "war": [{
-            "file": "target/DP2-G50-Sprint3.war",
+            "file": "target/Acme-one-21.2.war",
             "context": "/",
             "port": 443
         }]
