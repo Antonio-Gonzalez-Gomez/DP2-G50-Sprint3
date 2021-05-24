@@ -16,7 +16,7 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list>
-	<acme:list-column code="administrator.word.list.label.word" path="word" width="100%"/>
+	<acme:list-column code="administrator.word.list.label.word" path="spamword" width="100%"/>
 </acme:list>
 
 <acme:form>

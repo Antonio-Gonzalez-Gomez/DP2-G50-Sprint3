@@ -13,7 +13,7 @@
 </jstl:if>
 
 <acme:form readonly="${readonly}">
-	<acme:form-textbox code="administrator.word.form.label.word" path="word"/>
+	<acme:form-textbox code="administrator.word.form.label.word" path="spamword"/>
 			
 	<acme:form-submit test="${command == 'show'}" code="administrator.word.form.button.delete" action="/administrator/word/delete"/>
 	<acme:form-submit test="${command == 'create'}" code="administrator.word.form.button.create" action="/administrator/word/create"/>

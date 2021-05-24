@@ -35,7 +35,7 @@ public class AdministratorWordListService implements AbstractListService<Adminis
 		assert entity != null;
 		assert model != null;
 		
-		request.unbind(entity, model, "word", "filter");
+		request.unbind(entity, model, "spamword", "filter");
 	}
 
 	@Override
