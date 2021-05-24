@@ -23,7 +23,7 @@ public class ManagerTaskUpdateTest extends AcmeOneTest {
 		super.fillInputBoxIn("link", link);
 		super.fillInputBoxIn("startDate", start_date);
 		super.fillInputBoxIn("endingDate", ending_date);
-		super.fillInputBoxIn("workload", workload);
+		super.fillInputBoxIn("fake_workload", workload);
 		if(finished.equals("true")) super.fillInputBoxIn("finished", "true");
 		if(finished.equals("false")) super.fillInputBoxIn("finished", "false");
 		if(privacy.equals("true")) super.fillInputBoxIn("privacy", "true");
@@ -43,7 +43,7 @@ public class ManagerTaskUpdateTest extends AcmeOneTest {
 		super.checkInputBoxHasValue("link", link);
 		super.checkInputBoxHasValue("startDate", start_date);
 		super.checkInputBoxHasValue("endingDate", ending_date);
-		super.checkInputBoxHasValue("workload", workload);
+		super.checkInputBoxHasValue("fake_workload", workload);
 		super.checkInputBoxHasValue("finished", finished);
 		super.checkInputBoxHasValue("privacy", privacy);
 		
@@ -65,7 +65,7 @@ public class ManagerTaskUpdateTest extends AcmeOneTest {
 		super.fillInputBoxIn("link", link);
 		super.fillInputBoxIn("startDate", start_date);
 		super.fillInputBoxIn("endingDate", ending_date);
-		super.fillInputBoxIn("workload", workload);
+		super.fillInputBoxIn("fake_workload", workload);
 		if(finished.equals("true")) super.fillInputBoxIn("finished", "true");
 		if(finished.equals("false")) super.fillInputBoxIn("finished", "false");
 		if(privacy.equals("true")) super.fillInputBoxIn("privacy", "true");

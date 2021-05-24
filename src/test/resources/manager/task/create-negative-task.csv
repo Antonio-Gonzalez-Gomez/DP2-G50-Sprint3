@@ -10,3 +10,5 @@ recordIndex,title,description,link,start_date,ending_date,workload,finished,priv
 12,creacion1,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,2022/10/20 15:00,50.00,true,false,3,21
 13,sexo sexo,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.00,false,true,24,21
 14,creacion1,viagra cialis,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.00,false,true,24,21
+15,decimales1,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.61,false,true,24,21
+16,decimales2,Creacion de nueva task 1,http://www.acme.com,2022/10/20 12:00,2022/10/21 12:00,10.111,false,true,24,21
