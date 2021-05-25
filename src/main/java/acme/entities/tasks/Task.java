@@ -46,8 +46,10 @@ public class Task extends DomainEntity {
     @Temporal(TemporalType.TIMESTAMP)
     protected Date endingDate;
     
-    @NotNull
     protected Double workload;
+    
+    @NotNull
+    protected Double fake_workload;
     
     @NotNull
     protected Boolean privacy;
