@@ -1,0 +1,48 @@
+# i18n_en.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+manager.task.list.title = Your tasks
+manager.task.list.label.title = Title
+manager.task.list.label.description = Description
+manager.task.list.label.link = Link
+manager.task.list.label.startDate = Start
+manager.task.list.label.endingDate = Ending
+manager.task.list.label.workload = Workload
+manager.task.list.label.finished = Is finished?
+manager.task.list.label.privacy = Is private?
+
+manager.task.form.title.show = Task
+manager.task.form.title.create = Create Task
+manager.task.form.title.update = Update Task
+manager.task.form.title.delete = Delete Task
+
+manager.task.form.label.title = Title: 
+manager.task.form.label.description = Description:
+manager.task.form.label.link = Link:
+manager.task.form.label.startDate = Start:
+manager.task.form.label.endingDate = Ending:
+manager.task.form.label.workload = Workload:
+manager.task.form.label.finished = Is finished?
+manager.task.form.label.privacy = Is private?
+		
+manager.task.form.button.update = Update
+manager.task.form.button.delete = Delete
+manager.task.form.button.create = Create
+manager.task.form.button.return = Return
+
+manager.task.form.error.past_task = The start date must be for the future or the task must be finished
+manager.task.form.error.incorrect_finish = The ending date must be after the start date
+manager.task.form.error.work_overload = Workload is greater than time between the two dates
+manager.task.form.error.execution_period_null = An error has occurred during the execution period establishment 
+manager.task.form.error.title_spam = Contains too many spam words
+manager.task.form.error.description_spam = Contains too many spam words
+manager.task.form.error.big_workload = Workload cant go over 100.0
+manager.task.form.error.incorrect_decimals = There must be only 0, 1 or 2 decimals (0.00)
+manager.task.form.error.over_60 = Decimals can not go over 60

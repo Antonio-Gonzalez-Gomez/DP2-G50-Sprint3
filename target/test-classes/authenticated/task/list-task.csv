@@ -1,0 +1,2 @@
+recordIndex,title,description,link,start_date,ending_date,workload,finished,privacy,execution_period
+0,Crear lista de tasks para administrator,Crear repositorio de la clase Task para posterior implementación en Service,https://github.com/Antonio-Gonzalez-Gomez/DP2-G50-Sprint2/issues/2,2021/04/03 10:00,2021/04/05 12:00,7.00,true,false,2000
