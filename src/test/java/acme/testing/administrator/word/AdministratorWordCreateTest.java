@@ -18,7 +18,7 @@ public class AdministratorWordCreateTest extends AcmeOneTest {
 		
 		super.clickOnSubmitButton("Create new");
 		
-		super.fillInputBoxIn("word", word);
+		super.fillInputBoxIn("spamword", word);
 		super.clickOnSubmitButton("Create new");
 		
 		super.clickOnMenu("Administrator", "Change filter words");
@@ -27,7 +27,7 @@ public class AdministratorWordCreateTest extends AcmeOneTest {
 		
 		super.clickOnListingRecord(recordIndex);
 		
-		super.checkInputBoxHasValue("word", word);
+		super.checkInputBoxHasValue("spamword", word);
 		
 		super.signOut();
 	}
@@ -42,7 +42,7 @@ public class AdministratorWordCreateTest extends AcmeOneTest {
 		
 		super.clickOnSubmitButton("Create new");
 		
-		super.fillInputBoxIn("word", word);
+		super.fillInputBoxIn("spamword", word);
 		super.clickOnSubmitButton("Create new");
 		
 		super.checkErrorsExist();

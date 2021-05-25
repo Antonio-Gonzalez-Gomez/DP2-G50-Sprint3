@@ -20,7 +20,7 @@ public class AdministratorWordListTest extends AcmeOneTest {
 		
 		super.clickOnListingRecord(recordIndex);
 		
-		super.checkInputBoxHasValue("word", word);
+		super.checkInputBoxHasValue("spamword", word);
 		
 		super.signOut();
 	}
