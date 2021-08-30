@@ -15,5 +15,5 @@ projects.
 
 Unfortunately, the release couldn't be deployed into Clever Cloud
 
-Repository: https://github.com/Antonio-Gonzalez-Gomez/DP2-G44-Sprint2
-Release: https://github.com/Antonio-Gonzalez-Gomez/DP2-G44-Sprint2/releases/tag/v1.0.0
+Repository:  https://github.com/vicsorvaz/DP2-G44-Sprint3
+Release: https://github.com/vicsorvaz/DP2-G44-Sprint3/releases/tag/1.0
