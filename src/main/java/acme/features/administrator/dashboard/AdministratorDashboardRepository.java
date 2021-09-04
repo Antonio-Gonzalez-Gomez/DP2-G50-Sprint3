@@ -44,16 +44,16 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	@Query("select max(t.workload) from Task t")
 	Double maximumTaskWorkload();
 
-	@Query("select 1.0 * count(a) / (select count(b) from Task b) from Task a where a.privacy = false")
-	Double ratioOfPublicTasks();
+	@Query("select count(a) from Task a where a.privacy = false") 
+	Double numberOfPublicTasks();
 
-	@Query("select 1.0 * count(a) / (select count(b) from Task b) from Task a where a.privacy = true")
-	Double ratioOfPrivateTasks();
+	@Query("select count(a) from Task a where a.privacy = true") 
+	Double numberOfPrivateTasks();
 
-	@Query("select 1.0 * count(a) / (select count(b) from Task b) from Task a where a.finished = true")
-	Double ratioOfFinishedTasks();
+	@Query("select count(a) from Task a where a.finished = true") 
+	Double numberOfFinishedTasks();
 
-	@Query("select 1.0 * count(a) / (select count(b) from Task b) from Task a where a.finished = false")
-	Double ratioOfUnfinishedTasks();
+	@Query("select count(a) from Task a where a.finished = false") 
+	Double numberOfUnfinishedTasks();
 
 }

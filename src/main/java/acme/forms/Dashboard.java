@@ -35,10 +35,10 @@ public class Dashboard implements Serializable {
 	Double						deviationTaskWorkload;
 	Double						minimumTaskWorkload;
 	Double						maximumTaskWorkload;
-	Double						ratioOfPublicTasks;
-	Double						ratioOfPrivateTasks;
-	Double						ratioOfFinishedTasks;
-	Double						ratioOfUnfinishedTasks;
+	Double						numberOfPublicTasks;
+	Double						numberOfPrivateTasks;
+	Double						numberOfFinishedTasks;
+	Double						numberOfUnfinishedTasks;
 
 	// Derived attributes -----------------------------------------------------
 
