@@ -80,7 +80,7 @@
 	<bean id="shout09" class="acme.entities.shouts.Shout">
 		<property name="author" value="Luke Skywalker"/>
 		<property name="text" value="May the 4th be with you"/>
-		<property name="moment" value="2021/05/04 12:30"/>
+		<property name="moment" value="2021/08/28 12:30"/>
 		<property name="info" value="http://www.sample-app.com"/>
 	</bean>
 	

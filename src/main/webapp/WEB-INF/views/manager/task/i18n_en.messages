@@ -46,3 +46,4 @@ manager.task.form.error.description_spam = Contains too many spam words
 manager.task.form.error.big_workload = Workload cant go over 100.0
 manager.task.form.error.incorrect_decimals = There must be only 0, 1 or 2 decimals (0.00)
 manager.task.form.error.over_60 = Decimals can not go over 60
+manager.task.form.error.negative = Workload must be positive
