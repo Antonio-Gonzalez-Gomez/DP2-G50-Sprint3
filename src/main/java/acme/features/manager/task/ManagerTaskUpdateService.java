@@ -78,7 +78,7 @@ public class ManagerTaskUpdateService implements AbstractUpdateService<Manager, 
 			}
 			final BigDecimal bd = new BigDecimal(String.valueOf(false_workload));
 			final BigDecimal decimals = bd.subtract(new BigDecimal(bd.intValue()));
-			if(!errors.hasErrors("incorrect_decimals")) {
+			if(decimals.precision()>2) {
 				errors.state(request, (decimals.precision()<=2), "fake_workload", "manager.task.form.error.incorrect_decimals");
 			}
 			if(!errors.hasErrors("over_60")) {
